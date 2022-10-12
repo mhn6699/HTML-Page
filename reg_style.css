@@ -1,0 +1,125 @@
+.info {
+    background-color: #1d3557;
+    width: 300px;
+    font: bold;
+    color: #edf2f4;
+    text-align: center;
+    /*
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-left: 100%;
+    */
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+}
+
+.first_para {
+    background-color: #cad2c5;
+    font-family: AppleChancery, Consolas;
+    border: 3px solid #2f3e46;
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.first_para a {
+    margin: 10px;
+
+}
+
+.first_para button {
+    /* padding: 1em 3px 30px 5px;  
+    /* top:    1em padding  */
+    /* right:  3px padding  */
+    /* bottom: 30px padding */
+    /* left:   5px padding  */
+    padding: 2px 5px 2px 5px;
+    /* there are three types of display properties : inline, block and inline-block . we can also hide an 
+    hide an element by using display:none option*/
+    display: block;
+    margin: 10px;
+
+}
+
+
+
+h1 {
+    text-align: left;
+    color: #1d3557;
+}
+
+
+#NF {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: medium; */
+    font-weight: 900;
+}
+
+#NL {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: large; */
+    font-weight: 900;
+}
+
+p {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: large; */
+    font-weight: 900;
+}
+
+#em {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: large; */
+    font-weight: 900;
+}
+
+#pw {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: large; */
+    font-weight: 900;
+}
+
+#ag {
+    color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    /* font-size: large; */
+    font-weight: 900;
+}
+
+button {
+    color: #edf2f4;
+    background-color: #2f3e46;
+    font-family: AppleChancery, Consolas;
+    font-size: medium;
+}
+
+.mainAnimals {
+    border: 3px solid #264653;
+    border-collapse: collapse;
+    background-color: #d4bc79;
+    text-align: center;
+}
+
+.animalborder,
+th,
+td {
+    border: 3px solid #264653;
+    border-collapse: collapse;
+
+}
+
+#cap {
+    text-align: center;
+}
+
+/* #birds {
+    padding: px;
+} */

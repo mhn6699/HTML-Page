@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+    <link rel="stylesheet" href="reg_style.css">
+</head>
+
+<body>
+    <h1 class="demo">Tables</h1>
+    <h2>Heaviest Birds</h2>
+    <table class="mainAnimals">
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Average mass
+                    [kg (lb)]</th>
+                <th>Maximum mass
+                    [kg (lb)]</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104(230)</td>
+                <td>156.8 (346)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90 (200)</td>
+                <td>130 (287)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td>13.5 (29.8)</td>
+                <td>39 (86)</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Colspan and Rowspan</h2>
+    <div>
+        <table class="animalborder">
+            <caption>Bird Data</caption><br>
+            <thead>
+                <tr>
+                    <th rowspan="2">Animal</th>
+                    <th colspan="2">Average Mass</th>
+                    <th rowspan="2">Flighted</th>
+                </tr>
+                <tr>
+                    <th>kg</th>
+                    <th>lb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ostrich</td>
+                    <td>104</td>
+                    <td>230</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Somali Ostrich</td>
+                    <td>90</td>
+                    <td>200</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Wild Turkey</td>
+                    <td>13.5</td>
+                    <td>29.8</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h1 class="info">Racing Information</h1>
+    <div class="first_para">
+        <p>Racing games are a video game genre in which the player participates in a racing
+            competition.
+            They may be based on anything from real-world racing leagues to fantastical settings. They are distributed
+            along
+            a spectrum between more realistic racing simulations and more fantastical arcade-style racing games.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Racing_game">Know more</a>
+        <button type="button" id="click">Click here</button>
+    </div>
+    <h1>Race Registration!</h1>
+
+    <form action="">
+        <label for="FN" id="NF">First Name</label>
+        <input type="text" name="First Name" id="FN" placeholder="First Name" required>
+        <label for="LN" id="NL">Last Name</label>
+        <input type="text" name="Last Name" id="LN" placeholder="Last Name" required>
+        <br><br>
+
+        <div>
+            <!-- <p>Select a Race :</p> -->
+            <fieldset>
+                <legend>Select a Race:</legend>
+                <input type="radio" name="running race" id="fivek" value="Fun Run 5k">
+                <label for="fivek">Fun Run 5k</label> <br>
+                <input type="radio" name="running race" id="half" value="Half Marathon">
+                <label for="half">Half Marathon</label> <br>
+                <input type="radio" name="running race" id="full" value="Full Marathon">
+                <label for="full">Full Marathon</label> <br><br>
+            </fieldset>
+
+
+
+        </div>
+
+        <div>
+            <br>
+            <label for="mail" id="em">Email</label>
+            <input type="email" name="email" id="mail" placeholder="enter email ID" required>
+
+            <label for="pwd" id="pw">Password</label>
+            <input type="password" name="password" id="pwd" placeholder="password" required>
+
+        </div>
+
+        <div>
+            <br><label for="age" id="ag">Select Age Group</label>
+            <!-- for select, its not compulsory to mention type attribute-->
+            <select type="text" name="age group" id="age">
+                <option value="Under 18">Under 18</option>
+                <option value="Young Adult">19-35</option>
+                <option value="Mid group">36-45</option>
+                <!--option value="steak">Steak</option-->
+            </select>
+            <br><br>
+            <p>Enter Additional Data :</p>
+            <textarea name="input text" rows="10" cols="30"></textarea>
+
+            <hr>
+
+        </div>
+
+        <div>
+            <button type="submit">Register!</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
